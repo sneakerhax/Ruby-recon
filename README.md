@@ -13,8 +13,8 @@ More information about recon at scale can be found [here](http://sneakerhax.com/
 
 #Basic Usage
 
-##Scanner
+###Scanner
 `ruby nmap_ruby_<scanner_name> targets.txt`
 
-##Parser
+###Parser
 `ruby nmap_ruby_parser_<parser_name> <report.xml>`
