@@ -10,3 +10,11 @@ More information about recon at scale can be found [here](http://sneakerhax.com/
   <li>Templates for different types of nmap scans with timestamped output
   <li>Parsers to parse out the information you are looking for
 </ul>
+
+#Basic Usage
+
+##Scanner
+`ruby nmap_ruby_<scanner_name> targets.txt`
+
+##Parser
+`ruby nmap_ruby_parser_<parser_name> <report.xml>`
