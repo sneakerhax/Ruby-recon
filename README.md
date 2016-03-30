@@ -3,7 +3,7 @@ A recon tool using ruby-nmap
 
 This tool was created with [ruby-nmap](https://github.com/sophsec/ruby-nmap) to automate the process of scanning with nmap and parsing out results.
 
-More information about recon at scale can be found [here](http://sneakerhax.com/recon-at-scale/ "target=_blank")
+More information about recon at scale can be found [here](http://sneakerhax.com/recon-at-scale/)
 
 #Features
 <ul>
