@@ -14,7 +14,7 @@ More information about recon at scale can be found [here](http://sneakerhax.com/
 #Basic Usage
 
 ###Scanner
-`ruby nmap_ruby_<scanner_name> targets.txt`
+`ruby scanner-<scanner_name> targets.txt`
 
 ###Parser
-`ruby nmap_ruby_parser_<parser_name> <report.xml>`
+`ruby parser-<parser_name> <report.xml>`
