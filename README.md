@@ -5,6 +5,8 @@ This tool was created with [ruby-nmap](https://github.com/sophsec/ruby-nmap) to 
 
 More information about recon at scale can be found [here](http://sneakerhax.com/recon-at-scale/)
 
+A list of options for ruby-nmap can be found [here](https://github.com/sophsec/ruby-nmap/blob/ad12f9d533ff3b5b3dc559922a8f19b4b9409f32/lib/nmap/task.rb)
+
 #Features
 <ul>
   <li>Templates for different types of nmap scans with timestamped output
@@ -14,7 +16,7 @@ More information about recon at scale can be found [here](http://sneakerhax.com/
 #Basic Usage
 
 ###Scanner
-`ruby nmap_ruby_<scanner_name> targets.txt`
+`ruby scanner-<scanner-name> targets.txt`
 
 ###Parser
-`ruby nmap_ruby_parser_<parser_name> <report.xml>`
+`ruby parser-<parser-name> <report.xml>`
