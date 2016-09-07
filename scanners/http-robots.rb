@@ -5,7 +5,7 @@ time = Time.new
 t = time.strftime("%Y-%m-%d-%H:%M:%S")
 report = '../reports/nmapscan_' + t.to_s + '_robots' + '.xml'
 puts "report name: #{report}"
-ports = 80,443,8080 #add port here. Use array when setting multiple ports
+ports = 80,443,8080
 
 Nmap::Program.scan do |nmap|
   nmap.target_file = targets

@@ -1,22 +1,35 @@
 # Ruby-recon
-A recon tool using ruby-nmap
+* A recon tool(collection of scanners and parsers) using ruby-nmap
 
-This tool was created with [ruby-nmap](https://github.com/sophsec/ruby-nmap) to automate the process of scanning with nmap and parsing out results.
+* This tool was created with [ruby-nmap](https://github.com/sophsec/ruby-nmap) to automate the process of scanning with Nmap and parsing out results.
 
-More information about recon at scale can be found [here](http://sneakerhax.com/recon-at-scale/)
+* More information can be found [here](http://sneakerhax.com/recon-at-scale/)
 
-A list of options for ruby-nmap can be found [here](https://github.com/sophsec/ruby-nmap/blob/ad12f9d533ff3b5b3dc559922a8f19b4b9409f32/lib/nmap/task.rb)
+* A list of options for ruby-nmap can be found [here](https://github.com/sophsec/ruby-nmap/blob/ad12f9d533ff3b5b3dc559922a8f19b4b9409f32/lib/nmap/task.rb)
 
-#Features
+# Features
 <ul>
-  <li>Templates for different types of nmap scans with timestamped output
-  <li>Parsers to parse out the information you are looking for
+  <li>Templates for different types of Nmap scans with timestamped output
+  <li>Parsers for parsing out specific information
 </ul>
 
-#Basic Usage
+# Basic Usage
 
-###Scanner
-`ruby scanner-<scanner-name> targets.txt`
+### Scanner:
+`ruby <scanner-name> targets.txt`
 
-###Parser
-`ruby parser-<parser-name> <report.xml>`
+### Parser:
+`ruby <parser-name> <report.xml>`
+
+### Example output:
+```
+[66.147.244.61]
+  [80/tcp]
+    [http-robots.txt]
+      * 1 disallowed entry
+      * /wp-admin/
+    [http-server-header]
+      * nginx/1.10.1
+    [http-title]
+      * Sneakerhax | Hacking in sneakers
+```
