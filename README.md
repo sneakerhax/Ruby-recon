@@ -1,5 +1,5 @@
 # Ruby-recon
-* A recon tool(collection of scanners and parsers) using ruby-nmap
+* A recon tool(collection of scanners and parsers)
 
 * This tool was created with [ruby-nmap](https://github.com/sophsec/ruby-nmap) to automate the process of scanning with Nmap and parsing out results.
 
