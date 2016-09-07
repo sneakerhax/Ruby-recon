@@ -4,10 +4,16 @@ report = ARGV[0]
 
 Nmap::XML.new(report) do |xml|
   xml.each_host do |host|
-    puts "[#{host.ip}]"
-
     host.each_port do |port|
-      puts "  #{port.number}/#{port.protocol}\t#{port.state}\t#{port.service}\t#{port.scripts}"
+      ports = [<add_ports>] #add ports here
+      if ports.include?(port.number) && port.scripts.values != []
+        puts "[#{host.hostname}][#{host.ip}]"
+        puts "\s\s[#{port.number}/#{port.protocol}]"
+        port.scripts.each do |name,output|
+        puts "\s\s\s\s[#{name}]"
+        output.each_line { |line| puts "\s\s\s\s\s\s* #{line}" }
+      end
+     end
     end
   end
 end
