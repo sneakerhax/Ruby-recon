@@ -23,7 +23,7 @@
 
 ### Example output:
 ```
-[66.147.244.61]
+[sneakerhax.com][66.147.244.61]
   [80/tcp]
     [http-robots.txt]
       * 1 disallowed entry
