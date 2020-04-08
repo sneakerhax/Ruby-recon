@@ -5,6 +5,8 @@
 * More information can be found [here](http://sneakerhax.com/recon-at-scale/)
 * A list of options for ruby-nmap can be found [here](https://github.com/sophsec/ruby-nmap/blob/ad12f9d533ff3b5b3dc559922a8f19b4b9409f32/lib/nmap/task.rb)
 
+[![Twitter](https://img.shields.io/badge/twitter-sneakerhax-blue?logo=twitter)](https://twitter.com/sneakerhax) [![Discord](https://img.shields.io/badge/discord-sneakerhax-darkblue?logo=discord)](https://discordapp.com/invite/wpxpYM3) 
+
 ## Features
 <ul>
   <li>Templates for different scans with timestamped output
