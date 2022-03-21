@@ -4,7 +4,7 @@
 * This tool was created with [ruby-nmap](https://github.com/sophsec/ruby-nmap) to automate the process of scanning with Nmap and parsing out results.
 * A list of options for ruby-nmap can be found [here](https://github.com/sophsec/ruby-nmap/blob/ad12f9d533ff3b5b3dc559922a8f19b4b9409f32/lib/nmap/task.rb)
 
-[![Ruby](https://img.shields.io/badge/ruby-3+-9b111e?logo=ruby)](https://twitter.com/sneakerhax) [![Twitter](https://img.shields.io/badge/twitter-sneakerhax-38A1F3?logo=twitter)](https://twitter.com/sneakerhax)
+[![Ruby](https://img.shields.io/badge/ruby-3+-9b111e?logo=ruby)](https://www.ruby-lang.org) [![Twitter](https://img.shields.io/badge/twitter-sneakerhax-38A1F3?logo=twitter)](https://twitter.com/sneakerhax)
 
 ## Features
 <ul>
